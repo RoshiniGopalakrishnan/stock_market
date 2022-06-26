@@ -1,0 +1,19 @@
+{
+    "cmpyCode": "ROSH123",
+    "cmpyName": "Rosh Tech Solutions",
+    "cmpyCeo": "Roshini",
+    "cmpyTurnOver": "10000",
+    "cmpyWebsite": "https:roshtechsolutionsltd.com",
+    "stckExchange": "NSE",
+    "password": "rosh123",
+    "confirmPassword": "rosh123"
+}
+/* db.company.createIndex(
+  {
+      "cmpyCode": 1
+  },
+  {
+      unique: true
+      
+  }
+) */

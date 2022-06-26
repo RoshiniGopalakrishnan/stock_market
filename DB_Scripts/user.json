@@ -1,0 +1,13 @@
+{
+  "username": "rosh",
+  "password": "$2a$10$slYQmyNdGzTn7ZLBXBChFOC9f6kFjAqPhccnP6DxlWXx2lPk1C3G6"
+}
+/* db.user.createIndex(
+  {
+      "username": 1
+  },
+  {
+      unique: true
+      
+  }
+) */
