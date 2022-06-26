@@ -1,7 +1,7 @@
 package com.stock.market.company.exception;
 
 /**
- * @author Ksp
+ * @author Roshini
  *
  */
 public class CompanyDetailException extends Exception {

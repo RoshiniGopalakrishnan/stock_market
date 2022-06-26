@@ -6,7 +6,7 @@ import org.springframework.data.mongodb.core.mapping.event.ValidatingMongoEventL
 import org.springframework.validation.beanvalidation.LocalValidatorFactoryBean;
 
 /**
- * @author Ksp This class is used for validation of field in database
+ * @author Roshini This class is used for validation of field in database
  *
  */
 @Configuration

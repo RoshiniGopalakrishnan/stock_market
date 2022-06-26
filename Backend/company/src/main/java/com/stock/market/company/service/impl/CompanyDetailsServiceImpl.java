@@ -17,7 +17,7 @@ import com.stock.market.company.service.ICompanyDetailsService;
 import lombok.extern.log4j.Log4j2;
 
 /**
- * @author Ksp
+ * @author Roshini
  *
  */
 @Service
@@ -44,6 +44,7 @@ public class CompanyDetailsServiceImpl implements ICompanyDetailsService {
 				for (Price price : priceList) {
 					if (price.getCompanyCode().equalsIgnoreCase(company.getCompanyCode())) {
 						stckPrice = price.getStckPrice();
+						break;
 					}
 				}
 				CompanyDetailsDto companyDetailsDto = CompanyDetailsDto.builder().companyCode(company.getCompanyCode())
@@ -71,6 +72,7 @@ public class CompanyDetailsServiceImpl implements ICompanyDetailsService {
 			for (Price price : priceList) {
 				if (price.getCompanyCode().equalsIgnoreCase(companyDetails.getCompanyCode())) {
 					stckPrice = price.getStckPrice();
+					break;
 				}
 			}
 			companyDetailsDto = CompanyDetailsDto.builder().companyCode(companyDetails.getCompanyCode())

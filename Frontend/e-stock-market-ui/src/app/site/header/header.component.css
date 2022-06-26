@@ -1,0 +1,29 @@
+.navbar{
+    background-color: #050b0f;
+    font-weight: bold;
+    color: #ebf3c9;
+    
+ }
+ .text{
+    color: #ebf3c9;
+ }
+
+ .header-post{
+    margin-left: 600px;
+
+ }
+
+ .material-symbols-sharp {
+   font-variation-settings:
+   'FILL' 0,
+   'wght' 400,
+   'GRAD' 0,
+   'opsz' 48;
+
+ }
+
+ .menu:hover{
+   transform: scale(1.1);
+ }
+ 
+

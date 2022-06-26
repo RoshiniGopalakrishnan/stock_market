@@ -3,7 +3,7 @@ package com.stockmarket.apigateway;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 /**
- * @author Ksp
+ * @author Roshini
  *
  */
 @SpringBootApplication

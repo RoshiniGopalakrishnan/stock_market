@@ -18,7 +18,7 @@ import org.springframework.security.web.authentication.UsernamePasswordAuthentic
 import com.stock.market.company.service.impl.JwtUserDetailService;
 
 /**
- * @author Ksp This method is used to authenticating the user based on basic
+ * @author Roshini This method is used to authenticating the user based on basic
  *         auth
  *
  */

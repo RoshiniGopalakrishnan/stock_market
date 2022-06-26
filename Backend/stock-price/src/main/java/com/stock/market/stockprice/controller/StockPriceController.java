@@ -21,7 +21,7 @@ import io.swagger.v3.oas.annotations.security.SecurityRequirement;
 import lombok.extern.log4j.Log4j2;
 
 /**
- * @author
+ * @author Roshini
  *
  */
 @RestController
@@ -60,8 +60,8 @@ public class StockPriceController {
 	@GetMapping("/get/{companyCode}/{startDate}/{endDate}")
 	@SecurityRequirement(name = "bearerAuth")
 	public ViewStockPriceDetailsDto viewStockDetails(@PathVariable("companyCode") String companyCode,
-			@PathVariable("startDate") @DateTimeFormat(pattern = "yyyy-MM-dd") Date startdate,
-			@DateTimeFormat(pattern = "yyyy-MM-dd") @PathVariable("endDate") Date endDate) throws ParseException {
+			@PathVariable("startDate") @DateTimeFormat(pattern = "yyyy-MM-dd'T'HH:mm:ss") Date startdate,
+			@DateTimeFormat(pattern = "yyyy-MM-dd'T'HH:mm:ss") @PathVariable("endDate") Date endDate) throws ParseException {
 		log.info("StockPriceController.viewStockDetails, request:  companyCode - {} , startDate - {} , endDate - {} ",
 				companyCode, startdate, endDate);
 		return stockPriceService.viewStockDetails(companyCode, startdate, endDate);

@@ -6,7 +6,7 @@ import com.stock.market.company.dto.CompanyDetailsDto;
 import com.stock.market.company.entity.CompanyDetails;
 
 /**
- * @author Ksp
+ * @author Roshini
  *
  */
 public interface ICompanyDetailsService {

@@ -4,7 +4,7 @@ import lombok.Builder;
 import lombok.Getter;
 
 /**
- * @author Ksp
+ * @author Roshini
  *
  */
 @Builder
@@ -25,4 +25,6 @@ public class CompanyDetailsDto {
 	private String stockExchange;
 
 	private double stockPrice;
+	
+	private boolean isHigher;
 }

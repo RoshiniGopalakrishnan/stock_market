@@ -22,12 +22,12 @@ import io.swagger.v3.oas.annotations.security.SecurityRequirement;
 import lombok.extern.log4j.Log4j2;
 
 /**
- * @author Ksp
+ * @author Roshini
  *
  */
 @RestController
 @RequestMapping("/api/v1.0/market/company")
-@CrossOrigin(origins = "/**")
+@CrossOrigin(origins = "*")
 @Log4j2
 public class CompanyDetailsController {
 

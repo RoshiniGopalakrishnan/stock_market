@@ -9,13 +9,15 @@ import org.springframework.data.mongodb.core.mapping.Field;
 
 import lombok.Getter;
 import lombok.Setter;
+import lombok.ToString;
 
 /**
- * @author Ksp Entity for companyDetails
+ * @author Roshini Entity for companyDetails
  *
  */
 @Getter
 @Setter
+@ToString
 @Document("company")
 public class CompanyDetails {
 
@@ -47,12 +49,5 @@ public class CompanyDetails {
 	@NotNull(message = "stock exchange cannot be empty")
 	private String stockExchange;
 
-	@Field("password")
-	@NotNull(message = "password cannot be empty")
-	private String password;
-
-	@Field("confirmPassword")
-	@NotNull(message = "confirm password cannot be empty")
-	private String confirmPassword;
 
 }

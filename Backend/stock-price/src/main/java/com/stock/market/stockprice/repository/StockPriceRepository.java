@@ -8,7 +8,7 @@ import org.springframework.stereotype.Repository;
 
 import com.stock.market.stockprice.entity.Price;
 /**
- * @author Ksp
+ * @author Roshini
  *
  */
 @Repository

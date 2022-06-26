@@ -13,7 +13,7 @@ import org.springframework.kafka.core.DefaultKafkaConsumerFactory;
 
 import com.fasterxml.jackson.databind.deser.std.StringDeserializer;
 /**
- * @author Ksp This class is used for configuring kafka to consume message
+ * @author Roshini This class is used for configuring kafka to consume message
  *
  */
 @Configuration

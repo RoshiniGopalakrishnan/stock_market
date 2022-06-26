@@ -18,7 +18,7 @@ import org.springframework.security.web.authentication.UsernamePasswordAuthentic
 import com.stock.market.stockprice.service.impl.JwtUserDetailService;
 
 /**
- * @author Ksp
+ * @author Roshini
  *
  */
 @Configuration

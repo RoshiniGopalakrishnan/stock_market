@@ -21,7 +21,7 @@ import com.stock.market.stockprice.service.impl.JwtUserDetailService;
 import io.jsonwebtoken.ExpiredJwtException;
 
 /**
- * @author Ksp
+ * @author Roshini
  *
  */
 @Component

@@ -8,13 +8,15 @@ import org.springframework.data.mongodb.core.mapping.Field;
 
 import lombok.Builder;
 import lombok.Getter;
+import lombok.ToString;
 
 /**
- * @author Ksp Entity for price
+ * @author Roshini Entity for price
  *
  */
 @Getter
 @Builder
+@ToString
 @Document("stock")
 public class Price {
 

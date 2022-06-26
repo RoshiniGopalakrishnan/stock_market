@@ -5,7 +5,7 @@ import org.springframework.stereotype.Repository;
 
 import com.stock.market.stockprice.entity.UserDetail;
 /**
- * @author Ksp
+ * @author Roshini
  *
  */
 @Repository

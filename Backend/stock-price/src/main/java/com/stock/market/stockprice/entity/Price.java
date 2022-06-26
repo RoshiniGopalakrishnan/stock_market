@@ -9,7 +9,7 @@ import org.springframework.data.mongodb.core.mapping.Field;
 import lombok.Builder;
 import lombok.Getter;
 /**
- * @author Ksp Entity for stockPrices
+ * @author Roshini Entity for stockPrices
  *
  */
 @Getter

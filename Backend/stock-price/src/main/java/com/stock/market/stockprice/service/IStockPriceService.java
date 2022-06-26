@@ -6,7 +6,7 @@ import java.util.Date;
 import com.stock.market.stockprice.dto.PriceDto;
 import com.stock.market.stockprice.dto.ViewStockPriceDetailsDto;
 /**
- * @author Ksp
+ * @author Roshini
  *
  */
 public interface IStockPriceService {

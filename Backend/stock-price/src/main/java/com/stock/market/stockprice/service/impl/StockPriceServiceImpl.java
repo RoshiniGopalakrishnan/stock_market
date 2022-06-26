@@ -26,7 +26,7 @@ import com.stock.market.stockprice.service.IStockPriceService;
 import lombok.extern.log4j.Log4j2;
 
 /**
- * @author Ksp
+ * @author Roshini
  *
  */
 @Service

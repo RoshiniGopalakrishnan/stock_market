@@ -1,4 +1,4 @@
-2022-05-03 17:33:42.181  INFO 12252 --- [restartedMain] c.s.market.company.CompanyApplication    : Starting CompanyApplication using Java 13.0.2 on DESKTOP-SGJ9MVS with PID 12252 (E:\e-stock-market-fse2\Backend\company\target\classes started by Ksp in E:\e-stock-market-fse2\Backend\company)
+2022-05-03 17:33:42.181  INFO 12252 --- [restartedMain] c.s.market.company.CompanyApplication    : Starting CompanyApplication using Java 13.0.2 on DESKTOP-SGJ9MVS with PID 12252 (E:\e-stock-market-fse2\Backend\company\target\classes started by Roshini in E:\e-stock-market-fse2\Backend\company)
 2022-05-03 17:33:42.183  INFO 12252 --- [restartedMain] c.s.market.company.CompanyApplication    : No active profile set, falling back to 1 default profile: "default"
 2022-05-03 17:33:45.339  INFO 12252 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data MongoDB repositories in DEFAULT mode.
 2022-05-03 17:33:45.729  INFO 12252 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 388 ms. Found 3 MongoDB repository interfaces.

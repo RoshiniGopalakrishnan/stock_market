@@ -12,7 +12,7 @@ import com.stock.market.stockprice.repository.StockPriceRepository;
 import lombok.extern.log4j.Log4j2;
 
 /**
- * @author Ksp This class is used for send and receive kafka message
+ * @author Roshini This class is used for send and receive kafka message
  *
  */
 @Service

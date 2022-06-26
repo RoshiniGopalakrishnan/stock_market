@@ -9,7 +9,7 @@ import com.stock.market.company.entity.Price;
 
 
 /**
- * @author Ksp
+ * @author Roshini
  *
  */
 @Repository
