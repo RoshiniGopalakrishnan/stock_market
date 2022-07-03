@@ -2,15 +2,21 @@ version: '3'
 services:
   company:
     image: company
-    build: Backend/company.
+    build: backend_aws/company.
     ports:
         - 8081:8081
   
   stock_price:
     image: stock_price
-    build: Backend/stock-price.
+    build: backend_aws/stock-price.
     ports:
         - 8082:8082
+
+  api_gateway:
+    image: api_gateway
+    build: backend_aws/api-gateway.
+    ports:
+        - 8083:8083
         
   
 

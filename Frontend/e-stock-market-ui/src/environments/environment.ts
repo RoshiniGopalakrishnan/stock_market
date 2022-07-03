@@ -6,9 +6,7 @@ export const environment = {
   production: false,
   baseUrl:'http://localhost:8083/api/v1.0/market',
   recaptcha: {
-    siteKey: '6LfJgcsfAAAAAEIQOU5uq09EFETWz8vET7x3OvkJ'
-
-  
+    siteKey: '6LfJgcsfAAAAAEIQOU5uq09EFETWz8vET7x3OvkJ'  
   }
 };
 
