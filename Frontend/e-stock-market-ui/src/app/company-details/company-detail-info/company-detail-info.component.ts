@@ -14,7 +14,11 @@ export class CompanyDetailInfoComponent implements OnInit {
   @Output() delete: EventEmitter<any> = new EventEmitter();
 
   "isRemoved": boolean;
-  constructor(private companyDetailService: CompanyDetailService, private route: ActivatedRoute, private router: Router) { }
+  constructor(
+    private companyDetailService: CompanyDetailService,
+     private route: ActivatedRoute, 
+     private router: Router) 
+     { }
 
   ngOnInit(): void {
   }
